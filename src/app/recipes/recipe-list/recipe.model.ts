@@ -4,11 +4,11 @@ public name:string;
 public description:string;
 public image: string;
 
-constructor(name:string, desc:string, image:String)
-{
+constructor(name1:string, desc:string, path)
+ {
 
-    this.name="name";
-    this.description="desc";
-    this.image="path";
-}
+    this.name=name1;
+    this.description=desc;
+    this.image=path;
+ }
 }
