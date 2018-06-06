@@ -9,7 +9,10 @@ import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.com
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
 import { ShoppingService } from './shopping-list/shopping.service';
+<<<<<<< HEAD
 import { AppRoutingModule } from './app-routing.module';
+=======
+>>>>>>> 149d5a0ba66c4dcd3ca18581fcc010f2520ff879
 
 
 @NgModule({
