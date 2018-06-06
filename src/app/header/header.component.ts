@@ -1,4 +1,4 @@
-import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 //import { EventEmitter } from 'protractor';
 
 @Component({
@@ -8,11 +8,11 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-@Output() featureSelected= new EventEmitter<String>();
+//@Output() featureSelected= new EventEmitter<String>();
 
   onSelect(feature : String)
   {
-    this.featureSelected.emit(feature);
+    //this.featureSelected.emit(feature);
 
   }
 
