@@ -12,6 +12,10 @@ import { ShoppingService } from './shopping-list/shopping.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { DropdownDirective } from './shared/dropdown.directive';
+<<<<<<< HEAD
+=======
+import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.component';
+>>>>>>> 3cf8cec705895e5c1d3800069405584d804c3bf5
 
 
 @NgModule({
@@ -25,6 +29,10 @@ import { DropdownDirective } from './shared/dropdown.directive';
     ShoppingEditComponent,
     RecipeItemComponent,
     DropdownDirective,
+<<<<<<< HEAD
+=======
+    RecipeStartComponent,
+>>>>>>> 3cf8cec705895e5c1d3800069405584d804c3bf5
     
   ],
   imports: [
